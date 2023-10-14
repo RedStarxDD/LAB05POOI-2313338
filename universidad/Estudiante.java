@@ -26,5 +26,11 @@ public class Estudiante extends Personas{
 		public String toString() {
 			return "Estudiante [ciclo=" + ciclo + ", carrera=" + carrera + ", cursos=" + Arrays.toString(cursos) + "]";
 		}
+
+		@Override
+		public void calcularAccesoAscensor() {
+			// TODO Auto-generated method stub
+			System.out.println(getCargo()+ ": Del 1 al 8");
+		}
 }
 

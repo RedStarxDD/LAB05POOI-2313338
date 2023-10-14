@@ -14,6 +14,11 @@ public class Administrador extends Personas{
 			return "Administrador [horasdeTrabajo=" + horasdeTrabajo + ", area=" + area + ", toString()="
 					+ super.toString() + "]";
 		}
+		@Override
+		public void calcularAccesoAscensor() {
+			// TODO Auto-generated method stub
+			System.out.println(getCargo()+ ": Todos los pisos");
+		}
 
 	}
 

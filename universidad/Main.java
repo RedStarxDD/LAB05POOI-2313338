@@ -33,6 +33,9 @@ public class Main {
 		uni.setPersonas(personas);
 		
 		System.out.println(uni);
+		for(Personas p:uni.getPersonas()) {
+			p.calcularAccesoAscensor();
+		}
 	}
 
 }

@@ -20,6 +20,12 @@ public class Profesor extends Personas{
 		@Override
 		public String toString() {
 			return "Profesor [aTiempoCompleto=" + aTiempoCompleto + "]";
+		}
+
+		@Override
+		public void calcularAccesoAscensor() {
+			// TODO Auto-generated method stub
+			System.out.println(getCargo()+ ": Del 1 al 9");
 		} 
 
 	}

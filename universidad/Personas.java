@@ -1,12 +1,11 @@
 package universidad;
 
-public class Personas {
+public abstract class Personas {
 	    private String id;
 	    private String cargo;
 	    private String dni;
 	    private int edad;
 	    
-
 		public Personas(String id, String cargo, String dni, int edad) {
 			super();
 			this.id = id;
@@ -34,6 +33,8 @@ public class Personas {
 		public int getEdad() {
 			return edad;
 		}
+		
+		public abstract void calcularAccesoAscensor();
 
 
 		@Override
@@ -41,7 +42,7 @@ public class Personas {
 			return "Personas [id=" + id + ", cargo=" + cargo + ", dni=" + dni + ", edad=" + edad + "]";
 		}
 		
-		 
+		
 	}
 
 
